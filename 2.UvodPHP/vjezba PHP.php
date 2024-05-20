@@ -37,6 +37,14 @@ if($true==8) {echo "This is true";}
 else{echo "This is False";}
 echo '<br>';
 
+//konstante
+define('PITAGORA', 1.41);
+const TEODOR = 1.73;
+echo PITAGORA;
+echo '<br>';
+print TEODOR;
+echo '<br>';
+
 $a = 10;
 $b = $a;
 echo "Referencija varijable b na varijablu a: $b";
