@@ -7,9 +7,9 @@ $d = 10;
 $e = 9;
 $f = 11;
 
-var_dump($a > $b); //mala fuknkija koja uvijek vraća true ili false
+var_dump($a > $b); //mala funckija koja uvijek vraća true ili false
 var_dump($a < $b); // false
-var_dump($a <= $f); // true jer je jednako; ne postoji <== ili >==
+var_dump($a <= $f); // true jer je manje; ne postoji <== ili >==
 var_dump($a >= $e); // false
 
 //primjer koristenja: imamo istrazivanje za punoljetne osobe, stavili smo konstantu punoljenosti da je 18 
