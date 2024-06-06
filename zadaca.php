@@ -1,12 +1,12 @@
 <?php
 
-$primeNumbers = array(2, 3, 5, 7, 11);
+$primeNumbers = array(5, 6, 8, 9, 20);
 
-var_dump(isset($primeNumbers[2]));
+var_dump(isset($primeNumbers[3]));
 
 echo '<br><br>';
 
-echo "Treci caln arraya primeNumbers " . (isset($primeNumbers[2]) ? 'postoji.' : 'ne postoji.');
+echo "Treci clan arraya primeNumbers" . (isset($primeNumbers[2]) ? 'postoji.' : 'ne postoji.');
 
 echo '<br><br>';
 
